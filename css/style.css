@@ -1,0 +1,16 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+#header {
+    align: center;
+    background-color: cyan;
+    color: navy;
+    margin: 0 auto auto auto;
+}
+
+#footer{
+    background-image: linear-gradient(rgb(0,94,255), rgb(0,255,200));
+
+}
