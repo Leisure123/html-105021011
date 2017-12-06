@@ -33,9 +33,9 @@
             <div class="wrap">
                 <p class="form-title">
                     Sign In</p>
-                <form class="login">
-                    <input type="text" placeholder="Username" />
-                    <input type="password" placeholder="Password" />
+                <form class="login" method="post" action="connect.php">
+                    <input type="text" placeholder="Username" name="id" />
+                    <input type="password" placeholder="Password" name="pw" />
                     <input type="submit" value="Sign In" class="btn btn-success btn-sm" />
                     <div class="remember-forgot">
                         <div class="row">
